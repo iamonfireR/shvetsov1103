@@ -1,0 +1,457 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: white;
+
+  text-decoration: none;
+
+  list-style: none;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  background-image: url(../img/main-screen__bgc.png);
+  background-repeat: no-repeat;
+}
+
+header {
+  margin: 40px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.header-cell {
+  max-width: 33%;
+}
+
+.header-logo {
+  display: block;
+}
+
+.header-navmenu-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.header-navmenu-cell {
+  margin: 0 2rem;
+  
+}
+.header-login-button {
+  max-height: 44px;
+  max-width: 183px;
+  border-radius: 50px;
+  padding: 15px 45px;
+  background: linear-gradient(rgb(184, 117, 246) , blueviolet);
+
+  border: 2px solid rgb(154, 73, 230);
+}
+
+.header-login-button:hover {
+  background: rgb(191, 123, 255);
+}
+
+.header-login-button:active {
+  background: rgb(112, 27, 190);
+}
+/* ////// */
+
+
+ @media screen and (max-width: 1000px) {
+  nav {
+   position: relative;
+   min-height: 40px;
+  } 
+  nav ul {
+   width: 180px;
+   padding: 5px 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: blueviolet 10px 11px;
+   border-radius: 5px;
+   box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  }
+  nav li {
+   display: none; /* скройте все элементы &lt;li&gt; */
+   margin: 0;
+  }
+  nav .current {
+   display: block; /* показывайте только текущий элемент &lt;li&gt; */
+  }
+
+ 
+  /* при проведении мышью */
+  nav ul:hover {
+   background-image: none;
+  }
+  nav ul:hover li {
+   display: block;
+   margin: 0 0 5px;
+  }
+
+ 
+  nav.center ul {
+   left: 50%;
+   margin-left: -90px;
+  }
+  
+ }
+
+ /* /////////////////// */
+
+
+
+.main-content-wrapper {
+  margin: 0 5%;
+}
+
+.secondary-wrapper {
+margin: 0 15%;
+}
+
+.input-text-color {
+  color: #121212;
+}
+
+
+.h1-main {
+  margin-top: 20%;
+  line-height: 125%;
+  font-style: Bold;
+  font-size: 64px;
+}
+.blockForTimer-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20%;
+}
+.blockForTimer-cell {
+
+  margin-right: 3%;
+  background-color: #121212;
+  height: 115px;
+  width: 100px;
+  padding: 20px, 30px, 20px, 30px;
+}
+
+.timer-text {
+  display: block;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.timer-par {
+  text-align: center;
+}
+
+.flexbox-duo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flexbox-duo-cell {
+  margin-top: 200px;
+  margin-right: 0%;
+
+  max-width: 320px;
+}
+
+.text-margin {
+  margin-top: 65px;
+  margin-left: 137px;
+}
+
+.par-header {
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  text-align: left;
+}
+.par-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+  text-align: center;
+}
+
+.partners {
+  padding: 10% 0;
+}
+
+
+
+.flexbox-triple-container {
+  margin-bottom: 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  text-align: center;
+}
+
+.flexbox-triple-cell {
+width: 320px;
+}
+
+.triple-logos {
+  opacity: 0.3;
+}
+
+.triple-logos:hover {
+  opacity: 1;
+}
+
+footer {
+  background-image: url(../img/footer-bg.jpg);
+  margin-top: 5%;
+ padding: 3%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.combo {
+  display: flex;
+}
+.combo-txt {
+  background-color: #fff;
+  color: #000;
+  font: inherit;
+  line-height: 1.5;
+  padding: 0 0.25em 0 1.5em;
+  border: 2px solid blueviolet;
+  border-radius: 15% 0 0 15%;
+}
+
+.combo-btn {
+  background-color: blueviolet;
+  line-height: 1.5;
+  border: 0.125em solid #000;
+  border-radius: 0 0.875em 0.875em 0;
+  padding: 0 0.5em;
+}
+.combo-btn:hover {
+  background-color: rgb(192, 128, 251);
+}
+.combo-btn:active {
+  background-color: rgba(137, 43, 226, 0.424);
+}
+
+.social-circle {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid blueviolet;
+  background-color: rgb(132, 31, 226);
+}
+
+.social-circle:hover {
+  background-color: rgb(173, 142, 202);
+}
+
+.social-circle:active {
+  background-color: rgb(70, 34, 104);
+}
+
+
+
+.social-list li {
+  display: inline-block;
+  margin: 40px;
+}
+
+.iconify {
+  position: relative;
+  left: 35%;
+  top: 35%;
+}
+
+/* модальные окна преподавателей */
+
+.modal {
+  position: fixed;
+  /* фиксированное положение */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* цвет фона */
+  z-index: 1050;
+  opacity: 0;
+  /* по умолчанию модальное окно прозрачно */
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  /* анимация перехода */
+  pointer-events: none;
+  /* элемент невидим для событий мыши */
+}
+/* при отображении модального окно */
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: auto;
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 500px;
+    margin: 30px auto;
+  }
+}
+/* свойства для блока, содержащего контент модального окна */
+.modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #121212;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: .3rem;
+  outline: 0;
+}
+@media (min-width: 768px) {
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+}
+/* свойства для заголовка модального окна */
+.modal-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #eceeef;
+}
+.modal-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+/* свойства для кнопки "Закрыть" */
+.close {
+  float: right;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  text-decoration: none;
+}
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.close:focus,
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .75;
+}
+/* свойства для блока, содержащего основное содержимое окна */
+.modal-body {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 15px;
+  overflow: auto;
+}
+
+/* слайдер */
+
+.horizontal-slider {
+
+  margin-top: 15%;
+  left: 33%;
+  width: 500px;
+  height: 150px;
+  background:rgb(255, 254, 254);
+  overflow: hidden;
+  position: relative;
+}
+
+.h-items {
+  width: 300%;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.h-items > li {
+  display: inline-block;
+  font-size: 12pt;
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+}
+
+.next {
+  right: 0px;
+}
+
+
+.handsome_man {
+  transform: scale(-1, 1);
+  width: 5%;
+  height: 10%;
+  position: fixed;
+  top: 100px;
+  right: 0%;
+  }
+

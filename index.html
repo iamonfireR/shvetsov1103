@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Мы не инфоцыгане!</title>
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+    <div class="header-navmenu-cell">
+        <a href="#">
+          <img
+            class="header-logo"
+            src="../projecto/img/Logo.png"
+            alt=""
+            srcset=""
+          />
+        </a>
+    </div>
+      
+ <div class="header-navmenu-cell">
+         <nav >
+            <ul class="header-navmenu-container">
+              <li class="current header-navmenu-cell"><a href="#element1">Главная</a></li>
+              <li class="header-navmenu-cell"><a href="#element2">Чем занимаемся?</a></li>
+              <li class="header-navmenu-cell"><a href="#element3">Преподаватели</a></li>
+              <li class="header-navmenu-cell"><a href="#element4">Контакты</a></li>
+            </ul>
+         </nav>
+ </div>
+    <div class="header-cell">
+        
+      <a class="header-login-button" href="#openModal-4">Log in</a>
+      <div id="openModal-4" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <p class="modal-title">
+              <input class="input-text-color" type="text" placeholder="login">  
+              </p>
+              <hr>
+             <p class="modal-title"> <input class="input-text-color" type="password" placeholder="password">  </p>
+           
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+              <input class="input-text-color" type="submit" value="Отправить">
+   <input class="input-text-color" type="reset" value="Очистить">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+    <main class="main-content-wrapper">
+      <!-- таймер -->
+      <div id="element1" class="main-content-wrapper">
+        <h1 class="h1-main">
+          Первый курс <br />
+          по компьютерной сборке
+        </h1>
+        <div class="blockForTimer-container">
+          <div class="blockForTimer-cell">
+            <span class="timer-text" id="days"></span>
+            <p class="timer-par">Дней</p>
+          </div>
+          <div class="blockForTimer-cell">
+            <span class="timer-text" id="hours"></span>
+            <p class="timer-par">Часов</p>
+          </div>
+          <div class="blockForTimer-cell">
+            <span class="timer-text" id="minutes"></span>
+            <p class="timer-par">Минут</p>
+          </div>
+          <div class="blockForTimer-cell">
+            <span class="timer-text" id="seconds"></span>
+            <p class="timer-par">Секунд</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Чем мы занимаемся? ВТОРОЙ БЛОК -->
+        <section  class="secondary-wrapper" >
+            <div id="element2"  class="flexbox-duo-container">
+              <div class="flexbox-duo-cell">
+                <img id="#element2" src="img/about__img.png" alt="" srcset="" />
+              </div>
+              <div class="flexbox-duo-cell">
+                <div class="text-margin">
+                  <p class="par-header">Чем мы занимаемся?</p>
+                  <p class="par-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
+                    neque, dignissim et feugiat elit augue in suspendisse egestas.
+                    Dictum vestibulum mi et sed nunc, orci fermentum vestibulum,
+                    morbi. Et neque, adipiscing sapien sem senectus praesent
+                 
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+       
+      
+       <!-- Получитте профессию 3 флексбокса -->
+            <ul class="flexbox-triple-container">
+              <li class="flexbox-triple-cell">
+                <ul>
+                  <li>
+                    <img class="triple-logos" src="img/icon-1.png" alt="" srcset="" />
+                  </li>
+                  <li>
+                    <p class="par-text">Только практические навыки в работе</p>
+                  </li>
+                  <li>
+                    <p class="par-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Netus eget velit quisque accumsan amet tortor. Velit,
+                      volutpat egestas fringilla mi porttitor tempus. Placerat
+                      dui.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="flexbox-triple-cell">
+                <ul>
+                  <li>
+                    <img class="triple-logos" src="img/icon-2.png" alt="" srcset="" />
+                  </li>
+                  <li>
+                    <p class="par-text">
+                      Работа на самом современном оборудовании
+                    </p>
+                  </li>
+                  <li>
+                    <p class="par-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Netus eget velit quisque accumsan amet tortor. Velit,
+                      volutpat egestas fringilla mi porttitor tempus. Placerat
+                      dui.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li class="flexbox-triple-cell">
+                <ul>
+                  <li>
+                    <img class="triple-logos" src="img/icon-3.png" alt="" srcset="" />
+                  </li>
+                  <li>
+                    <p class="par-text">Сертификация по окончании обучения</p>
+                  </li>
+                  <li>
+                    <p class="par-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Netus eget velit quisque accumsan amet tortor. Velit,
+                      volutpat egestas fringilla mi porttitor tempus. Placerat
+                      dui.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+         
+        
+  
+        <!-- Наши партнеры -->
+        
+       
+              <section class="partners">
+                <p class="par-header">Партнеры программы</p>
+                <div class="horizontal-slider">
+                  <ul class="h-items">
+                    <li>
+                      <img src="img/slider1.png" alt="" srcset="" />
+                    </li>
+                    <li>
+                      <img src="img/slider2.png" alt="" srcset="" />
+                    </li>
+                    <li>
+                      <img src="img/slider3.png" alt="" srcset="" />
+                    </li>
+                  </ul>
+                  <div class="h-controlls">
+                    <span class="prev">
+                      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </span>
+                    <span class="next">
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </section>
+        
+         
+      
+  
+        <!-- Преподаватели -->
+        <div id="element3">
+      
+            <p class="par-header">Ваши преподаватели</p>
+            <ul class="flexbox-triple-container">
+              <li class="flexbox-triple-cell">
+                <ul>
+                  <li>
+                    <img src="img/Ellipse 2.png" alt="" srcset="" />
+                  </li>
+                  <li>
+                    <p class="par-text">Дмитрий Иванов</p>
+                  </li>
+                  <li>
+                    <p class="par-text">Специалист по видеокартам</p>
+                  </li>
+                  <li>
+                    <a class="header-login-button" href="#openModal-1">Информация</a>
+                    <div id="openModal-1" class="modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <p class="modal-title">Лучший из лучших </p>
+                            <a href="#close" title="Close" class="close">×</a>
+                          </div>
+                          <div class="modal-body">
+                            Мастер спорта международного класса по сборке пк!
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="flexbox-triple-cell">
+                <ul>
+                  <li>
+                    <img src="img/Ellipse 1.png" alt="" srcset="" />
+                  </li>
+                  <li>
+                    <p class="par-text">Дмитрий Иванов</p>
+                  </li>
+                  <li>
+                    <p class="par-text">Специалист по процессорам</p>
+                  </li>
+                  <li>
+                    <a class="header-login-button" href="#openModal-2">Информация</a>
+                    <div id="openModal-2" class="modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <p class="modal-title">Лучший из худших</p>
+                            <a href="#close" title="Close" class="close">×</a>
+                          </div>
+                          <div class="modal-body">
+                            Мастер спорта по сборке пк и моддингу!
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="flexbox-triple-cell">
+                <ul>
+                  <li>
+                    <img src="img/Ellipse 3.png" alt="" srcset="" />
+                  </li>
+                  <li>
+                    <p class="par-text">Дмитрий Иванов</p>
+                  </li>
+                  <li>
+                    <p class="par-text">Специалист по охлаждению</p>
+                  </li>
+                  <li>
+                    <a class="header-login-button" href="#openModal-3">Информация</a>
+                    <div id="openModal-3" class="modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <p class="modal-title">Вполне сносный</p>
+                            <a href="#close" title="Close" class="close">×</a>
+                          </div>
+                          <div class="modal-body">
+                            Кандидат в мастера спорта по сборке пк!
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          
+        </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+      <footer>
+
+          <p class="par-header">Статьи каждую неделю</p>
+          <p class="par-text">
+            Больше 90% учеников прошли полный курс и смогли собрать свой первый
+            компьютер
+          </p>
+          <div class="combo">
+            <input
+              type="text"
+              name="search"
+              placeholder="Введите почту"
+              autocomplete="off"
+              class="combo-txt"
+            />
+            <button type="button" class="combo-btn">Подписаться</button>
+          </div>
+
+          <ul id="element4" class="social-list">
+            <li>
+              <a href=""
+                ><img src="#" alt="" srcset="" />
+                <div class="social-circle">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:instagram-fill"
+                  ></span></div
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="#" alt="" srcset="" />
+                <div class="social-circle">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:facebook-fill"
+                  ></span></div
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="#" alt="" srcset="" />
+                <div class="social-circle">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:vk-fill"
+                  ></span></div
+              ></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="#" alt="" srcset="" />
+                <div class="social-circle">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:linkedin-fill"
+                  ></span></div
+              ></a>
+            </li>
+          </ul>
+     <img class="handsome_man" src="img/hay.png" alt="" srcset="">
+      </footer>
+    
+    <!-- Место для скриптов -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
